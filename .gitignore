@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# Runtime outputs
+spark_output/
+
+# Medallion data outputs (keep folder docs)
+data/bronze/*
+!data/bronze/README.md
+data/silver/*
+!data/silver/README.md
+data/gold/*
+!data/gold/README.md
+data/quarantine/*
+!data/quarantine/README.md
+data/generated/*
+!data/generated/README.md
+data/uploaded/*
+!data/uploaded/README.md
