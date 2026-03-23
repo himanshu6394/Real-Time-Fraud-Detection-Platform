@@ -2,6 +2,10 @@
 
 A production-style fintech data platform that simulates how companies detect fraudulent transactions at scale using PySpark pipelines, behavioral risk scoring, and an interactive monitoring dashboard.
 
+## 📸 Dashboard Preview
+
+![Dashboard](data/dashboard.png)
+
 ## 1. Project Objective
 
 This platform replicates how a real-world fraud monitoring system operates in fintech environments:
